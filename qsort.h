@@ -7,6 +7,7 @@
 #pragma once
 /*
 排序，可以自己定义cmp函数
+比较的数据应该有相同的内存大小，否则在复制时出现问题
 */
 template<class T>class Qsort{
 private :
